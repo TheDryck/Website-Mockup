@@ -1,0 +1,333 @@
+/*================================================================================
+	Item Name: Modern Admin - Clean Bootstrap 4 Dashboard HTML Template
+	Version: 1.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+.header-navbar{
+	background-color: #5A629A;
+}
+
+.brand-text{
+	color: white;
+}
+
+.extranav{
+	display: block;
+	background-color: #190B55;
+	color: white;
+	height: 70px;
+	text-align: center;
+	/* vertical-align: center; */
+}
+
+.extranav .liveclass{
+	display: inline-block;
+	position: relative;
+	left: -200px;
+	color: #ffffff;
+	border-left: #ffffff solid 3px;
+	padding-left: 75px;
+	margin-top: 10px;
+	font-weight: bold;
+	/* line-height: 70px; */
+	/* position: absolute; */
+}
+
+.wrap{
+	display: flex;
+	justify-content: space-between;
+	padding-top: 5px;
+	
+}
+
+.secondnav{
+	/* float: right; */
+	display: inline-block;
+	color: #ffffff;
+	text-align: center;
+	margin: auto;
+	font-weight: bold;
+	font-size: 24px;
+	padding-top: 0;
+}
+
+.secondnav h4{
+	color: #ffffff;
+	font-size: 14px;
+	padding: 5px 0 0 0;
+}
+
+.test{
+	float: left;
+}
+
+.form{
+	background-color: #CBCCCF;
+	color: black;
+	float: left;
+	width: 260px;
+	height: 600px;
+	position: fixed;
+	justify-content: center;
+	padding-left: 5px;
+}
+
+.navbar-header{
+	background-color: grey;
+	color: #190B55;
+	width: 200px;
+}
+
+.period{
+	padding-left: 15px;
+	padding-bottom: 60px;
+}
+
+.form-control{
+	width: 110px;
+	height: 30px;
+	padding-right: 10px;
+	float: left;
+}
+
+#grade, #subject{
+	width: 200px;
+}
+
+.period h3{
+	font-weight: bold;
+}
+
+.logo{
+	/* float: left; */
+	/* display: inline-block; */
+	float: left;
+	height: 70px;
+}
+
+.logo img{
+	width: inherit;
+	height: inherit;
+}
+
+#moe{
+	width: 250px;
+	
+}
+
+#oneonone{
+	border-radius: 50%;
+	padding-right: 15px;
+	
+}
+
+.button{
+	padding-left: 45px;
+	position: absolute;
+	bottom: 65px;
+}
+
+#line{
+	float: left;
+	width: 50%;
+	height: auto;
+}
+
+.col-sm span{
+	font-weight: bold;
+}
+
+.classdetail{
+	/* display: inline-block; */
+	/* position: absolute; */
+	margin: auto;
+	justify-content: center;
+	font-size: 24px;
+	font-weight: 600;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+#detail{
+	/* padding-top: 0; */
+	/* top: -25px; */
+}
+
+#classcard{
+	background-color: #E6F3E3;
+}
+/* #test{
+	float: right;
+	padding-right: 50px;
+} */
+
+h4 span{
+	font-weight: bold;
+}
+
+#website-activity{
+	/* display: inline-block; */
+	background-color: #D6DDD5;
+	/* top: -10px; */
+	height: 60px;
+	/* width: auto; */
+	font-weight: 600;
+	border-left: 1px solid #8F928F;
+	border-right: 1px solid #8F928F;
+	padding-top: 5px;
+	
+	/* border-left: 1px bold black;
+	border-right: 1px bold black; */
+	
+}
+
+/* #websiterow{
+	display: flex;
+	justify-content: space-between;
+	/* float: left; 
+	display: table-row;
+} */
+
+.flex{
+	display: flex;
+	background-color: #D6DDD5;
+	padding: 10px;
+}
+
+#conversion{
+	padding: 10px;
+	justify-content: center;
+	text-align: center;
+	
+}
+
+#conversion div{
+	font-size: 35px;
+	color: red;
+	font-weight: 500;
+	text-align: center;
+}
+
+#conversion h5{
+	font-weight: 500;
+}
+
+#traffic{
+	padding: 10px;
+	justify-content: center;
+	text-align: center;
+}
+
+#traffic div{
+	font-size: 35px;
+	color: green;
+	font-weight: 500;
+	text-align: center;
+}
+
+#traffic span{
+	font-weight: bold;
+}
+
+.flex2{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+#secondgraph{
+	height: inherit;
+}
+
+#recent-sales{
+	height: 300px;
+}
+
+#secondchart{
+	height: 300px;
+}
+
+.nav-link .active{
+	background-color: black;
+}
+
+.topschool{
+	display: flex;
+
+}
+
+.topschool p, .topschool div{
+	padding-right: 15px;
+	padding-top: 10px;
+}
+
+.grid-container{
+	display: grid;
+	grid-template-columns: repeat(7, 60px);
+	grid-template-rows: repeat(5, 1fr);
+}
+
+.box1{
+	background-color: #7FBDAC;
+	/* grid-column-start: 1;
+	grid-column-end: 6; */
+	grid-column: 1/span 4;
+	/* grid-row-start: 1;
+	grid-row-end: 4; */
+	grid-row: 1/span 3;
+}
+
+.box2{
+	background-color: #F8F99C;
+	/* grid-column-start: 6;
+	grid-column-end: 8; */
+	grid-column: 5/span 3;
+	/* grid-row-start: 1;
+	grid-row-end: 4; */
+	grid-row: 1/span 3;
+}
+
+.box3{
+	background-color: #83B634;
+	/* grid-column-start: 1;
+	grid-column-end: 4; */
+	grid-column: 1/span 3;
+	/* grid-row-start: 4;
+	grid-row-end: 6; */
+	grid-row: 4/span 1;
+}
+
+.box4{
+	background-color: #D9EBB2;
+	/* grid-column-start: 4;
+	grid-column-end: 7; */
+	grid-column: 4/span 3;
+	/* grid-row-start: 4;
+	grid-row-end: 6; */
+	grid-row: 4/span 1;
+}
+
+.box5{
+	background-color: #2AE804;
+	/* grid-column-start: 7;
+	grid-column-end: 8; */
+	grid-column: 7/span 1;
+	grid-row: 4/span 1;
+	
+}
+
+.box5 p{
+	visibility: hidden;
+}
+
+.grid-container > div{
+	padding-left: 5px;
+}
